@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+     font-family: "Plus Jakarta Sans", sans-serif;
+     padding: 0;
+     margin: 0;
+}
+
+
+.price_section {
+    padding: 80px 0px;
+}
+
+/* heading */
+.price_section h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #4c5671;
+    text-align: center;
+    margin: 0px 0px 40px;
+}
+
+.price_section .container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+/* Button Group */
+
+.price_section .tab__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.price_section .tab__button__item {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 40px;
+    max-width: fit-content;
+    background-color: #2d3c58;
+}
+
+.price_section .tab__button .tab__button__item button {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 7px 15px;
+    border-radius: 40px;
+    line-height: 100%;
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.price_section .tab__button .discount {
+    position: relative;
+}
+
+
+.price_section .tab__button .tab__button__item button.active {
+    background: #0774ff;
+    color: #fff;
+}
+
+.price_section .tab__button .discount span.line {
+    position: absolute;
+    top: -22px;
+    right: 60%;
+}
+
+.price_section .tab__button .discount p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #2d3c58;
+    margin: 0;
+}
+
+
+.price_section .cus_row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.price_section .cus_row .card {
+    max-width: 28%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .3s ease-in-out;
+    box-sizing: border-box;
+    padding: 45px 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e9edff;
+}
+
+
+
+.price_section .card:hover {
+    border-color:#0774ff;
+}
+
+
+.price_section .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.price_section .title img {
+    width: 25px;
+    height: 25px;
+}
+
+.price_section .title h3 {
+   
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color:#2d3c58;
+    margin: 0px;
+}
+
+.price_section p {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c5671;
+    margin: 0px;
+    text-align: center;
+}
+
+.price_section .save_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4c5671;
+    margin: 20px 0px 20px;
+}
+
+.price_section .save_price .discount {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #2d3c58;
+    border: 1px solid #2d3c58;
+}
+
+.price_section .offer{
+    display: flex;
+    gap: 10px;
+    margin:16px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.price_section .offer span{
+    padding: 8px 15px;
+    border-radius: 30px;
+    background: #E7F1FF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    transition: all .4s ease;
+    text-align: center;
+    color: #2d3c58;
+}
+
+.price_section .price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5px;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #2d3c58;
+    margin: 0px;
+}
+
+.price_section .price span {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.price_section .btn {
+    display: block;
+    padding: 12px 48px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 24px 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+
+
+
+.price_section .btn:hover {
+    background-color: #0774ff;
+    border-color: #0774ff;
+    color: #ffffff;
+}
+
+.price_section .list_box {
+    padding: 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.price_section .list-hide {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.price_section .highlight .list-hide {
+    display: inline-flex;
+}
+
+
+.price_section .list_box .list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.price_section .list_box .list img {
+  width: 16px;
+  height: 16px;
+}
+
+.price_section .list_box .list .text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#4c5671;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    max-width: calc(100% - 24px);
+    width: 100%;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.price_section .list_box .list .text::after {
+    background-color: #0774ff;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    left: 0;
+    top: calc(100% + 10px);
+    border-radius: 8px;
+    visibility: hidden;
+    z-index: 10;
+    position: absolute;
+}
+
+.price_section .list_box .list .text:hover::after {
+    visibility: visible;
+}
+
+.price_section .list_box h3 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #4c5671;
+    margin: 10px 0px -5px;
+}
+
+.price_section .features_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #4c5671;
+    cursor: pointer;
+    margin-top: 24px;
+    transition: all .3s ease-in-out;
+}
+
+
+.price_section .features_btn svg {
+    width: 25px;
+    height: 25px;
+}
+
+.price_section .see-less {
+    display: none;
+}
+
+
+
+.price_section .hidden {
+    display: none;
+}
+
+
+.price_section .card.active {
+    position: relative;
+    border-color:#0774ff;
+}
+
+.price_section .card.active::after {
+    content: "MOST POPULAR";
+    position: absolute;
+    padding: 8px 20px;
+    width: 60%;
+    text-align: center;
+    bottom: calc(100% - 20px);
+    left: 50%;
+    background: linear-gradient(287.85deg,#FF0766 0%,#FF7E5D 95.32%);
+    color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    /* border: 1px solid #ffc107; */
+    transform: translateX(-50%);
+}
+
+
+.price_section .card.active .btn {
+    background-color:#0774ff;
+    border-color: #0774ff;
+    color: #fff;
+}
+
+
+.price_section .shot_content {
+    font-size: 13px;
+    line-height: 20px;
+    width: 100%;
+}
+
+@media(max-width:767px) {
+
+    .price_section .cus_row .card {
+        max-width: 100%;
+    }
+
+    .price_section .cus_row {
+        flex-wrap: wrap;
+    }
+
+    .price_section .card.active {
+        margin-top: 20px;
+    }
+
+    .price_section .tab__button {
+        margin-bottom: 30px;
+    }
+
+}
+

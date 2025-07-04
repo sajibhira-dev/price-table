@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Table</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/content.css">
+    <script src="js/custom.js"></script>
+
+</head>
+
+<body>
+
+
+    <section id="Price" class="price_section web_hosting">
+        <div class="container">
+
+            <!-- Table Heading -->
+            <h2>Choose Your Perfect Plan</h2>
+
+            <div class="tab__button">
+                <div class="tab__button__item">
+                    <button id="monthlyButton" onclick="toggleView('monthly')">Monthly</button>
+                    <button id="yearlyButton" class="active" onclick="toggleView('yearly')">Yearly</button>
+                </div>
+                <div class="discount">
+                    <span class="line">
+                        <img src="icon/arc-arrow.svg" alt="arc-arrow">
+                    </span>
+                    <p>Upto 76% save</p>
+                </div>
+            </div>
+
+
+
+            <div class="cus_row">
+
+                <div class="card personal_plan ">
+                    <div class="card_content">
+                        <div class="title">
+                            <img src="icon/starter.svg" alt="starter">
+                            <h3>Personal</h3>
+                        </div>
+                        <p class="shot_content">Ideal for multiple sites with storage, WordPress & Laravel features</p>
+
+                        <div class="offer">
+                            <span class="monthly hidden">Save ৳9,193 on Yearly Plan</span>
+                            <span class="yearly">Save ৳9,193 with Free Domain</span>
+                        </div>
+
+                        <div class="price monthly hidden"><span>৳</span>699<span>/ Per Month</span></div>
+                        <div class="price yearly"><span>৳</span>1995<span>/ Per Year</span></div>
+
+
+                        <a href="https://my.hostfame.com/index.php?rp=/store/web-hosting/webpro&billingcycle=triennially"
+                            class="btn monthly hidden">Choose plan</a>
+                        <a href="https://my.hostfame.com/index.php?rp=/store/web-hosting/webpro&billingcycle=triennially"
+                            class="btn yearly">Choose plan</a>
+                        <p class="monthly hidden">Save Upto 76% on Yearly Plan</p>
+                        <p class="yearly">Renew at Same Price, Every year.</p>
+
+                        <div class="list_box">
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text ssd">100GB NVMe SSD Storage</div>
+                            </div>
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text bandwidth">Unmetered Bandwidth</div>
+                            </div>
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text ssl">Free SSL Certificate</div>
+                            </div>
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text website">5 Websites</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text email">10 Email Accounts</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/uncheck.svg" alt="uncheck">
+                                <div class="text backups">Daily Backups (JetBackup)</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text installer">1-Click WordPress Installer</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text protection">DDoS Protection</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text lite_speed">LiteSpeed Web Server</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text softaculous">Softaculous App Installer</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text guaranteed">30-Minute Guaranteed Email Response</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text guarantee">30-Day Money-Back Guarantee</div>
+                            </div>
+
+                            <!-- hidden item -->
+                            <div class="list-hide">
+
+
+                                <h3>Technical Specifications</h3>
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text cores">2 CPU Cores</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text ram">2 GB RAM</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text speed">20 MB/s I/O Speed</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text processes">200 Entry Processes</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text php_memory">PHP Memory Limit: 768 MB</div>
+                                </div>
+
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text inodes_limit">500,000 Inodes Limit</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text php_versions">Multiple PHP Versions</div>
+                                </div>
+
+
+                                <h3>WordPress Features</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text lite_speed_wordpress">LiteSpeed Cache for WordPress</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text wordpress_updates">Automatic WordPress Updates</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text pre_configured">Pre-configured WordPress Settings</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text wordpress_migration">Free WordPress Migration</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text plugin_theme">Basic Plugin and Theme Support</div>
+                                </div>
+
+                                <h3>Security Features</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text imunify360">Imunify360 Security Suite</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text brute_force">Brute Force Protection</div>
+                                </div>
+
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text advanced_scanner">Advanced Antivirus Scanner</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text hotlink">Hotlink Protection</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text waf">Web Application Firewall (WAF)</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text spam_emails">Spam Protection for Emails</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text file_permission">File Permission Protection</div>
+                                </div>
+
+                                <h3>Support & Assistance</h3>
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text live_chat">24/7 Live Chat, Email & WhatsApp Call Support</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text email_response">30-Minute Guaranteed Email Response</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text comprehensive">Comprehensive Knowledge Base & Tutorials</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text forum_access">Community Forum Access</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text site_optimization">Site Optimization Advice</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text onboarding">Onboarding Guide for New Users</div>
+                                </div>
+
+                                <h3>Performance Benchmarks</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text uptime">99.99% Uptime Guarantee</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text global_cdn">Global CDN Integration</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text speed_test">Real-World Speed Test Results</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text high_traffic">Optimized for High Traffic Spikes</div>
+                                </div>
+
+
+                                <h3>Developer-Friendly Features</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text ssh_access">SSH Access</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text git">Git Integration</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text wp_cli">WP-CLI Support</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text cron_jobs">Custom Cron Jobs </div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text Multiple_PHP_Versions">Multiple PHP Versions</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="see-all features_btn">See all features
+                        <svg data-v-03dae1ca="" data-v-18befc1d="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" class="h-svgo-icon"
+                            style="fill: var(--primary--500); color: var(--primary--500);">
+                            <path fill="currentColor"
+                                d="M17.957 10.457a1 1 0 0 0-1.414-1.414L12 13.586 7.457 9.043a1 1 0 0 0-1.414 1.414l5.25 5.25a1 1 0 0 0 1.414 0l5.25-5.25Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="see-less features_btn">See less features
+                        <svg data-v-03dae1ca="" data-v-18befc1d="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" class="h-svgo-icon"
+                            style="fill: var(--primary--500); color: var(--primary--500);">
+                            <path fill="currentColor"
+                                d="M12.707 9.043a1 1 0 0 0-1.414 0l-5.25 5.25a1 1 0 1 0 1.414 1.414L12 11.164l4.543 4.543a1 1 0 0 0 1.414-1.414l-5.25-5.25Z">
+                            </path>
+                        </svg>
+                    </div>
+
+                </div>
+                <div class="card professional_plan active">
+                    <div class="card_content">
+                        <div class="title">
+                            <img src="icon/starter.svg" alt="starter">
+                            <h3>Professional</h3>
+                        </div>
+                        <p class="shot_content">Ideal for multiple sites with storage, WordPress & Laravel features</p>
+
+                        <div class="offer">
+                            <span class="monthly hidden">Save ৳9,193 on Yearly Plan</span>
+                            <span class="yearly">Save ৳9,193 with Free Domain</span>
+                        </div>
+
+                        <div class="price monthly hidden"><span>৳</span>699<span>/ Per Month</span></div>
+                        <div class="price yearly"><span>৳</span>1995<span>/ Per Year</span></div>
+
+
+                        <a href="https://my.hostfame.com/index.php?rp=/store/web-hosting/webpro&billingcycle=triennially"
+                            class="btn monthly hidden">Choose plan</a>
+                        <a href="https://my.hostfame.com/index.php?rp=/store/web-hosting/webpro&billingcycle=triennially"
+                            class="btn yearly">Choose plan</a>
+                        <p class="monthly hidden">Save Upto 76% on Yearly Plan</p>
+                        <p class="yearly">Renew at Same Price, Every year.</p>
+
+                        <div class="list_box">
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text ssd">100GB NVMe SSD Storage</div>
+                            </div>
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text bandwidth">Unmetered Bandwidth</div>
+                            </div>
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text ssl">Free SSL Certificate</div>
+                            </div>
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text website">5 Websites</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text email">10 Email Accounts</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/uncheck.svg" alt="uncheck">
+                                <div class="text backups">Daily Backups (JetBackup)</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text installer">1-Click WordPress Installer</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text protection">DDoS Protection</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text lite_speed">LiteSpeed Web Server</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text softaculous">Softaculous App Installer</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text guaranteed">30-Minute Guaranteed Email Response</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text guarantee">30-Day Money-Back Guarantee</div>
+                            </div>
+
+                            <!-- hidden item -->
+                            <div class="list-hide">
+
+
+                                <h3>Technical Specifications</h3>
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text cores">2 CPU Cores</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text ram">2 GB RAM</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text speed">20 MB/s I/O Speed</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text processes">200 Entry Processes</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text php_memory">PHP Memory Limit: 768 MB</div>
+                                </div>
+
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text inodes_limit">500,000 Inodes Limit</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text php_versions">Multiple PHP Versions</div>
+                                </div>
+
+
+                                <h3>WordPress Features</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text lite_speed_wordpress">LiteSpeed Cache for WordPress</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text wordpress_updates">Automatic WordPress Updates</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text pre_configured">Pre-configured WordPress Settings</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text wordpress_migration">Free WordPress Migration</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text plugin_theme">Basic Plugin and Theme Support</div>
+                                </div>
+
+                                <h3>Security Features</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text imunify360">Imunify360 Security Suite</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text brute_force">Brute Force Protection</div>
+                                </div>
+
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text advanced_scanner">Advanced Antivirus Scanner</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text hotlink">Hotlink Protection</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text waf">Web Application Firewall (WAF)</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text spam_emails">Spam Protection for Emails</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text file_permission">File Permission Protection</div>
+                                </div>
+
+                                <h3>Support & Assistance</h3>
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text live_chat">24/7 Live Chat, Email & WhatsApp Call Support</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text email_response">30-Minute Guaranteed Email Response</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text comprehensive">Comprehensive Knowledge Base & Tutorials</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text forum_access">Community Forum Access</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text site_optimization">Site Optimization Advice</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text onboarding">Onboarding Guide for New Users</div>
+                                </div>
+
+                                <h3>Performance Benchmarks</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text uptime">99.99% Uptime Guarantee</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text global_cdn">Global CDN Integration</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text speed_test">Real-World Speed Test Results</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text high_traffic">Optimized for High Traffic Spikes</div>
+                                </div>
+
+
+                                <h3>Developer-Friendly Features</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text ssh_access">SSH Access</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text git">Git Integration</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text wp_cli">WP-CLI Support</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text cron_jobs">Custom Cron Jobs </div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text Multiple_PHP_Versions">Multiple PHP Versions</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="see-all features_btn">See all features
+                        <svg data-v-03dae1ca="" data-v-18befc1d="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" class="h-svgo-icon"
+                            style="fill: var(--primary--500); color: var(--primary--500);">
+                            <path fill="currentColor"
+                                d="M17.957 10.457a1 1 0 0 0-1.414-1.414L12 13.586 7.457 9.043a1 1 0 0 0-1.414 1.414l5.25 5.25a1 1 0 0 0 1.414 0l5.25-5.25Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="see-less features_btn">See less features
+                        <svg data-v-03dae1ca="" data-v-18befc1d="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" class="h-svgo-icon"
+                            style="fill: var(--primary--500); color: var(--primary--500);">
+                            <path fill="currentColor"
+                                d="M12.707 9.043a1 1 0 0 0-1.414 0l-5.25 5.25a1 1 0 1 0 1.414 1.414L12 11.164l4.543 4.543a1 1 0 0 0 1.414-1.414l-5.25-5.25Z">
+                            </path>
+                        </svg>
+                    </div>
+
+                </div>
+
+                <div class="card business_plan">
+                    <div class="card_content">
+                        <div class="title">
+                            <img src="icon/starter.svg" alt="starter">
+                            <h3>Business</h3>
+                        </div>
+                        <p class="shot_content">Ideal for multiple sites with storage, WordPress & Laravel features</p>
+
+                        <div class="offer">
+                            <span class="monthly hidden">Save ৳9,193 on Yearly Plan</span>
+                            <span class="yearly">Save ৳9,193 with Free Domain</span>
+                        </div>
+
+                        <div class="price monthly hidden"><span>৳</span>699<span>/ Per Month</span></div>
+                        <div class="price yearly"><span>৳</span>1995<span>/ Per Year</span></div>
+
+
+                        <a href="https://my.hostfame.com/index.php?rp=/store/web-hosting/webpro&billingcycle=triennially"
+                            class="btn monthly hidden">Choose plan</a>
+                        <a href="https://my.hostfame.com/index.php?rp=/store/web-hosting/webpro&billingcycle=triennially"
+                            class="btn yearly">Choose plan</a>
+                        <p class="monthly hidden">Save Upto 76% on Yearly Plan</p>
+                        <p class="yearly">Renew at Same Price, Every year.</p>
+
+                        <div class="list_box">
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text ssd">100GB NVMe SSD Storage</div>
+                            </div>
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text bandwidth">Unmetered Bandwidth</div>
+                            </div>
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text ssl">Free SSL Certificate</div>
+                            </div>
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text website">5 Websites</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text email">10 Email Accounts</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/uncheck.svg" alt="uncheck">
+                                <div class="text backups">Daily Backups (JetBackup)</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text installer">1-Click WordPress Installer</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text protection">DDoS Protection</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text lite_speed">LiteSpeed Web Server</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text softaculous">Softaculous App Installer</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text guaranteed">30-Minute Guaranteed Email Response</div>
+                            </div>
+
+                            <div class="list">
+                                <img src="icon/check.svg" alt="check">
+                                <div class="text guarantee">30-Day Money-Back Guarantee</div>
+                            </div>
+
+                            <!-- hidden item -->
+                            <div class="list-hide">
+
+
+                                <h3>Technical Specifications</h3>
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text cores">2 CPU Cores</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text ram">2 GB RAM</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text speed">20 MB/s I/O Speed</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text processes">200 Entry Processes</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text php_memory">PHP Memory Limit: 768 MB</div>
+                                </div>
+
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text inodes_limit">500,000 Inodes Limit</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text php_versions">Multiple PHP Versions</div>
+                                </div>
+
+
+                                <h3>WordPress Features</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text lite_speed_wordpress">LiteSpeed Cache for WordPress</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text wordpress_updates">Automatic WordPress Updates</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text pre_configured">Pre-configured WordPress Settings</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text wordpress_migration">Free WordPress Migration</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text plugin_theme">Basic Plugin and Theme Support</div>
+                                </div>
+
+                                <h3>Security Features</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text imunify360">Imunify360 Security Suite</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text brute_force">Brute Force Protection</div>
+                                </div>
+
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text advanced_scanner">Advanced Antivirus Scanner</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text hotlink">Hotlink Protection</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text waf">Web Application Firewall (WAF)</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text spam_emails">Spam Protection for Emails</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text file_permission">File Permission Protection</div>
+                                </div>
+
+                                <h3>Support & Assistance</h3>
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text live_chat">24/7 Live Chat, Email & WhatsApp Call Support</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text email_response">30-Minute Guaranteed Email Response</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text comprehensive">Comprehensive Knowledge Base & Tutorials</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text forum_access">Community Forum Access</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text site_optimization">Site Optimization Advice</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text onboarding">Onboarding Guide for New Users</div>
+                                </div>
+
+                                <h3>Performance Benchmarks</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text uptime">99.99% Uptime Guarantee</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text global_cdn">Global CDN Integration</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text speed_test">Real-World Speed Test Results</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text high_traffic">Optimized for High Traffic Spikes</div>
+                                </div>
+
+
+                                <h3>Developer-Friendly Features</h3>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text ssh_access">SSH Access</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text git">Git Integration</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text wp_cli">WP-CLI Support</div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text cron_jobs">Custom Cron Jobs </div>
+                                </div>
+
+                                <div class="list">
+                                    <img src="icon/check.svg" alt="check">
+                                    <div class="text Multiple_PHP_Versions">Multiple PHP Versions</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="see-all features_btn">See all features
+                        <svg data-v-03dae1ca="" data-v-18befc1d="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" class="h-svgo-icon"
+                            style="fill: var(--primary--500); color: var(--primary--500);">
+                            <path fill="currentColor"
+                                d="M17.957 10.457a1 1 0 0 0-1.414-1.414L12 13.586 7.457 9.043a1 1 0 0 0-1.414 1.414l5.25 5.25a1 1 0 0 0 1.414 0l5.25-5.25Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="see-less features_btn">See less features
+                        <svg data-v-03dae1ca="" data-v-18befc1d="" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" class="h-svgo-icon"
+                            style="fill: var(--primary--500); color: var(--primary--500);">
+                            <path fill="currentColor"
+                                d="M12.707 9.043a1 1 0 0 0-1.414 0l-5.25 5.25a1 1 0 1 0 1.414 1.414L12 11.164l4.543 4.543a1 1 0 0 0 1.414-1.414l-5.25-5.25Z">
+                            </path>
+                        </svg>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
